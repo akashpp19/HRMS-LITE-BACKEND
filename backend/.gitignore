@@ -1,0 +1,41 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info/
+dist/
+build/
+.eggs/
+
+# Virtual environment
+.venv/
+venv/
+env/
+ENV/
+
+# Environment variables – keep secrets out of git
+.env
+.env.*
+!.env.example
+
+# Database files – SQLite is local only, never commit to git
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.sw?
+.DS_Store
+
+# Logs
+*.log
+nohup.out
+
+# Alembic (optional: commit migrations if you use them)
+# alembic/versions/
